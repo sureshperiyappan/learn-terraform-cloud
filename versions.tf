@@ -1,7 +1,7 @@
 terraform {
 
   cloud {
-    organization = "hashicorp-learn"
+    organization = "periyappan-suresh"
 
     workspaces {
       name = "learn-terraform-cloud"
@@ -15,5 +15,5 @@ terraform {
     }
   }
 
-  required_version = ">= 0.14.0"
+  required_version = ">= 1.1.0"
 }
